@@ -1,0 +1,30 @@
+{
+  "name": "webpack-starter-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesRobertHugginsNgo/webpack-starter-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesRobertHugginsNgo/webpack-starter-project/issues"
+  },
+  "homepage": "https://github.com/JamesRobertHugginsNgo/webpack-starter-project#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {}
+}
