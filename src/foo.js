@@ -1,5 +1,5 @@
-function foo(bar) {
-	console.log('FOO', bar);
+function foo(container, bar) {
+	container.appendChild(document.createTextNode(bar));
 }
 
 export { foo }

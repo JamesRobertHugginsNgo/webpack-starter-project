@@ -20,11 +20,17 @@
   },
   "homepage": "https://github.com/JamesRobertHugginsNgo/webpack-starter-project#readme",
   "devDependencies": {
+    "css-loader": "^2.1.0",
     "eslint": "^5.12.0",
     "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.2.0",
     "webpack-dev-server": "^3.1.14"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6"
+  }
 }
