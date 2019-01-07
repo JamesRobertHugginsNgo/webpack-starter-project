@@ -1,5 +1,5 @@
 function foo(container, bar) {
-	container.appendChild(document.createTextNode(bar));
+	container.appendChild(bar);
 }
 
 export { foo }
